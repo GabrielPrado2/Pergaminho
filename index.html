@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Mushroom Pact</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <main>
+    <div id="parchment"></div>
+    <div id="contain">
+      <p class="inkTitle">The Mushroom Pact</p>
+      <p id="labarum"><img
+          src="https://preview.redd.it/0ovcln93zex61.png?width=1080&crop=smart&auto=webp&v=enabled&s=3a32201c304423e112f321625d478473cead8853">
+      </p>
+      <p>Honrados Guerreiros Desconhecidos,
+
+        Como Imperador deste reino, dirijo-me a vocês com uma necessidade urgente e uma chamada àqueles que buscam a
+        glória e estão dispostos a enfrentar os maiores perigos. Nosso amado mundo está à beira do abismo, consumido por
+        forças malignas e sedento de bravura.
+        Embora vocês sejam guerreiros desconhecidos, cujos nomes ainda não ecoam através das lendas, é exatamente sua
+        inexperiência e sede de reconhecimento que tornam sua participação tão vital. Neste momento de crise, nosso
+        reino precisa da coragem e determinação de almas puras e destemidas, prontas para enfrentar os desafios mais
+        aterradores.
+        Reunidos na minha corte, vocês serão agraciados com a oportunidade de se provar. Serão concedidos treinamentos,
+        armas e conhecimentos necessários para enfrentar os horrores que assolam nossas terras. Seu valor será testado
+        em batalhas épicas contra criaturas malignas e senhores das trevas.
+        Embora vocês possam começar como aventureiros modestos, vejo em cada um de vocês o potencial de se tornarem
+        lendas vivas. Em cada golpe desferido e cada magia conjurada, vocês escreverão suas histórias, forjando seus
+        destinos e provando que, mesmo os menos experientes, podem alcançar a grandeza.</p>
+      <p>Não prometo riquezas ou glórias imediatas, mas ofereço uma oportunidade única de se destacar. Com seu talento e
+        dedicação, vocês podem se tornar os heróis deste reino, reconhecidos e honrados por suas ações heroicas.
+        Aceitem meu chamado e juntem-se a mim nesta jornada perigosa, onde sua coragem e vontade de vencer serão
+        testadas como nunca antes. Unidos, enfrentaremos inimigos poderosos, desvendaremos mistérios ancestrais e
+        restauraremos a esperança em nossos corações.
+        A vitória está ao nosso alcance, nobres guerreiros desconhecidos. Venham e mostrem ao mundo que a verdadeira
+        grandeza não é medida pelo nome, mas pelo coração.<br><br><br>
+        Vocês aceitam esse desafio ?<br><br><br>
+        Com esperança e fé,<br><br><br>
+        Imperador Gabriel Prado.
+      </p>
+      <p class="cachet"><img
+          src="http://www.heraldiste.org/wp-content/uploads/2017/12/sceau-couronne-guillaume3-pm-300x300.png"></p>
+      <div id="signature">Imperador Gabriel Prado<br />Imperatriz Yasmin Assunção</div>
+      <Input type="text" id="nomeAssinatura" placeholder="Coloque seu primeiro nome">
+      <button id="btnAssinar">Assinatura</button>
+      <div id="areaAssinatura"></div>
+    </div>
+  </main>
+  <svg>
+    <filter id="wavy2">
+      <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
+      <feDisplacementMap in="SourceGraphic" scale="20" />
+    </filter>
+  </svg>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
